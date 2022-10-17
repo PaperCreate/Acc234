@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 body {
     color: white;
     background-color: rgb(228, 202, 184);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 30px;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 16px;
 }
 
 ul {
