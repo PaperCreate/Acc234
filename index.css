@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-color: rgb(228, 202, 184);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+ul {
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

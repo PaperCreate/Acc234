@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    color: rgb(227, 200, 174);
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-image: url('brownaesthetic.png');
+    background-repeat: no-repeat;
+}
+
+body * {
+    box-sizing: border-box;
+
+}
+
+.main-login{
+   width: 100vw;
+   height: 100vh;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+   background-image: url('brownaesthetic.png');
+    background-repeat: no-repeat;
+}
+
+.left-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(107, 80, 62);
+  text-decoration: none;
+  background-image: url('colagem.png');
+    background-repeat: no-repeat;
+}
+
+.left-login > h1 {
+
+     color:rgb(0, 0, 0);
+
+}
+
+
+.right-login{
+     width: 50vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(219, 197, 163);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+    background-image: url('colagem.png');
+    background-repeat: no-repeat;
+
+}
+
+.card-login > h1 {
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(167, 143, 112);
+    color:rgb(134, 124, 100);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.textfield > label {
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder{
+      color:rgb(255, 255, 255);
+
+}
+
+.btn-login{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(255, 243, 209);
+    background-color: rgb(108, 91, 77);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px;
+
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   .main-login{
+    flex-direction: column;
+   }
+   .left-login > h1{
+    display: none;
+   }
+
+   .left-login{
+    width: 100%;
+    height: auto;
+   }
+
+   .right-login{
+    width: 100%;
+    height: auto;
+   }
+
+
+   .left-login-image{
+        width: 50vw;
+   }
+
+
+}
