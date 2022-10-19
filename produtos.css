@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Courier+Prime:ital@1&family=Kalam:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(73, 60, 47);
+}
+
+body {
+    background-color: rgb(227, 211, 172);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 62, 48);
+    background-image: url('https://i.etsystatic.com/28615394/r/il/587fe2/3027926239/il_fullxfull.3027926239_3r47.jpg');
+    background-repeat: repeat;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(168, 146, 128);
+    background-image: url('https://marketplace.canva.com/EAFIKG6eaGk/1/0/900w/canva-tropical-beige-aesthetic-wallpaper-background-8yUL8Zcfjqg.jpg');
+    background-repeat: repeat;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 4px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+main.cards section.card.contact button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.shop button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.about button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.nsei button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.kk button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.sla button {
+    background: linear-gradient(to right, #94765a, #d8ae92);
+}
+
+main.cards section.card.contact {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+main.cards section.card.shop {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+main.cards section.card.nsei {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+main.cards section.card.kk {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+main.cards section.card.sla {
+    box-shadow: 20px 20px 50px -30px #695949;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   .main-login{
+    flex-direction: column;
+   }
+   .left-login > h1{
+    display: none;
+   }
+
+   .left-login{
+    width: 100%;
+    height: auto;
+   }
+
+   .right-login{
+    width: 100%;
+    height: auto;
+   }
+
+
+   .left-login-image{
+        width: 50vw;
+   }
+
+}
