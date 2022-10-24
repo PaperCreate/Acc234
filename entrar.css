@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
 body {
     margin: 0;
     color: rgb(227, 200, 174);
     background-color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace;
     font-size: 30px;
     background-image: url('brownaesthetic.png');
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ body * {
     border-radius: 10px;
     padding: 15px;
     background-color: rgb(167, 143, 112);
-    color:rgb(134, 124, 100);
+    color:rgb(0, 0, 0);
     font-size: 12pt;
     box-shadow: 0px 10px 40px;
     outline: none;
