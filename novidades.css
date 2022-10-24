@@ -100,7 +100,7 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #000000;
+    border-top: 0.4px solid #4e4040;
     padding-top: 48px;
     font-family: 'Courier Prime', monospace;
     font-weight: 400;
@@ -126,4 +126,3 @@ body {
     display: block;
     margin: 0 auto;
 }
-
