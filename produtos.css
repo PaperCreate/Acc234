@@ -43,9 +43,8 @@ body {
 .flex-container {
    flex-direction: row;
    flex-wrap: wrap;
-    
+   justify-content: center;
    display: flex;
-   justify-content: space-between;
    list-style-type: none;
    align-items: center;
    padding: 16px;
