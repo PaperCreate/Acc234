@@ -48,10 +48,10 @@ body {
    list-style-type: none;
    align-items: center;
    padding: 16px;
-    
 }
 
 main.cards {
+    flex-grow: <1>;
     display: flex;
     padding: 32px;
     width: 70%;
