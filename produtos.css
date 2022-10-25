@@ -37,6 +37,18 @@ body {
     background-repeat: repeat;
 }
 
+.flex-container {
+   flex-direction: row;
+   flex-wrap: wrap;
+    
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+    
+}
+
 main.cards {
     display: flex;
     padding: 32px;
