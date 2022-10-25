@@ -11,7 +11,6 @@ body {
 
 body * {
     box-sizing: border-box;
-
 }
 
 .main-login{
@@ -93,7 +92,7 @@ body * {
     border-radius: 10px;
     padding: 15px;
     background-color: rgb(167, 143, 112);
-    color:rgb(134, 124, 100);
+    color:rgb(0, 0, 0);
     font-size: 12pt;
     box-shadow: 0px 10px 40px;
     outline: none;
