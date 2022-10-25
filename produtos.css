@@ -8,9 +8,14 @@
 }
 
 li {
+    display: inline-block;
+    padding: 30px;
     color: black;
     font-family: 'Courier Prime', monospace;
     font-size: 30px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(250, 217, 200);
 }    
 
 p {
