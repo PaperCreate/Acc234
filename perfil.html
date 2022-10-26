@@ -13,19 +13,19 @@
        <h1> Perfil </h1>
         <img class="avatar" src="https://i.pinimg.com/474x/47/ba/71/47ba71f457434319819ac4a7cbd9988e.jpg" alt="avatar">
     </div>
-    
+    <form action="dbconexao.php" method="post">
     <div class="detalhes">
         <h2> Detalhes da conta </h2>
 
-      <span class="negrito"> Nome: </span> <p> Ana Caroline Vicente de Almeida Conceição </p>
-      <span class="negrito"> E-mail: </span> <p> anyc5555@gmail.com </p>
-      <span class="negrito"> Telefone: </span> <p> 21 98885-4922 </p>
+      <span class="negrito"> Nome: </span> <p> <?= $nome ?> </p>
+      <span class="negrito"> E-mail: </span> <p> <?= $email ?> </p>
+      <span class="negrito"> Telefone: </span> <p> <?= $telefone ?> </p>
     </div>
 
     <div class="footer">
         <img src="" class="ico">
 
     </div>
-    
+    </form>
 </body>
 </html>
